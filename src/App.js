@@ -7,12 +7,12 @@ import Footer from "./Components/Footer";
 function App() {
   return (
     <div className="App">
+      <Topbar/>
       <div className="coneiner">
-        <Topbar/>
         <Options/>
         <Preview/>
-        <Footer/>
       </div>
+      <Footer/>
     </div>
   );
 }
