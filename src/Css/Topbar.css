@@ -1,0 +1,52 @@
+:root
+{
+    /*colors*/
+    --color1: #0a698f;
+    --color2: #0a5775;
+
+    /*font color*/
+    --fc1: #f3fdfd;
+    --fc2: #c4c7c7;
+
+    /*font size*/
+    --h1: 3rem;
+    --h2: 2.5rem;
+    --h3: 2rem;
+    --h4: 1.7rem;
+    --h5: 1.5rem;
+    --h6: 1.2rem;
+}
+
+.logo
+{
+    font-weight: 400;
+    padding: 0.3rem 1.3rem;
+    display: inline-block;
+}
+
+.logo-akcent
+{
+    color: var(--color1);
+    font-weight: 700;
+}
+
+button
+{
+    background-color: var(--color1);
+    border: none;
+    color: var(--fc1);
+    font-size: var(--h5);
+    padding: 0.5rem 1.3rem;
+    font-weight: 700;
+    border-radius: 2.5rem;
+    display: inline-block;
+    position: absolute;
+    right: 0.5rem;
+    top: .7rem;
+}
+
+button:hover, button:active
+{
+    background-color: var(--color2);
+    color: var(--fc2);
+}

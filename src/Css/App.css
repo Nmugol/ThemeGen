@@ -5,6 +5,8 @@
     --bg2: #131820;
 
     /*ofnt color*/
+    --fc-ac: #f3fdfd;
+    --fc-da: #586164;
     
     /*font size*/
     --h1: 3rem;
@@ -20,6 +22,8 @@ body
     margin: 0;
     padding: 0;
     background-color: var(--bg2);
+    color: var(--fc-ac);
+    font-family: 'Roboto', sans-serif;
 }
 
 .coneiner
@@ -30,10 +34,39 @@ body
     padding: 0;
 }
 
-.topbar
+.topbar, .footer
 {
     background-color: var(--bg1);
+    width: 100%;
+}
+
+.topbar
+{
     position: sticky;
     top: 0;
     font-size: var(--h1);
+    display: inline-block;
+}
+
+.footer
+{
+    position: fixed;
+    bottom: 0;
+    font-size: var(--h6);
+    clear: both;
+}
+
+.options, .preview
+{
+    float: left;
+}
+
+.options
+{
+    width: 35%;
+}
+
+.preview
+{
+    width: 65%;
 }
