@@ -1,0 +1,20 @@
+.options_panel
+{
+    margin: 0.5rem;
+    font-size: var(--h5);
+    background-color: var(--bg3);
+    padding: 0.5rem;
+    color: var(--color1);
+    font-weight: 700;
+}
+
+
+li
+{
+    list-style: none;
+    color: var(--fc-ac);
+    font-weight: 400;
+    font-size: 1rem;
+    margin: 0.2rem;
+    font-family: var(--ff-mono);
+}

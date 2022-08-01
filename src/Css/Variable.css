@@ -1,0 +1,27 @@
+:root
+{
+    /*bg colors*/
+    --bg1: #20252c;
+    --bg2: #131820;
+    --bg3: #242a31;
+
+    /*ofnt color*/
+    --fc-ac: #f3fdfd;
+    --fc-da: #586164;
+
+    /*colors*/
+    --color1: #0a698f;
+    --color2: #0a5775;
+    
+    /*font size*/
+    --h1: 3rem;
+    --h2: 2.5rem;
+    --h3: 2rem;
+    --h4: 1.7rem;
+    --h5: 1.5rem;
+    --h6: 1.2rem;
+
+    /*font family*/
+    --ff-reg: 'Roboto', sans-serif;
+    --ff-mono: 'Roboto Mono', monospace;
+}

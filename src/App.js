@@ -1,6 +1,6 @@
 import "./Css/App.css";
 import Topbar from "./Components/Topbar";
-import Options from "./Components/Opitons";
+import Options from "./Components/Options";
 import Preview from "./Components/Preview";
 import Footer from "./Components/Footer";
 
