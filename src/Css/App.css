@@ -54,6 +54,7 @@ body
 .options
 {
     width: 35%;
+    overflow-y: scroll;
 }
 
 .preview

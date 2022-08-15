@@ -18,3 +18,24 @@ li
     margin: 0.2rem;
     font-family: var(--ff-mono);
 }
+
+input
+{
+    border: none;
+    background-color: var(--bg2);
+    color: var(--fc-ac);
+    padding: 0.4rem;
+    border-radius: 1rem;
+    width: 3rem;
+}
+
+/*hide arrows*/
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button
+{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
